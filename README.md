@@ -347,9 +347,17 @@ This endpoint also supports setting different models in the query by default.
 
 To execute similar curl queries as above, you can visit [ai-pipelines page](https://pathway.com/solutions/ai-pipelines/) and try out the queries from the Swagger UI.
 
+## Demo Video
+
+![Demo Video Preview](demo.gif)
+[Download Demo Video](demo.mp4)
+
 
 #### Adding Files to Index
 
 First, you can try adding your files and seeing changes in the index. To test index updates, simply add more files to the `data` folder.
 
 If you are using Google Drive or other sources, simply upload your files there.
+#### KEY notes
+port 8000:8000
+api gemini
