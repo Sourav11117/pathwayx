@@ -223,7 +223,7 @@ In order to let the pipeline get updated with each change in local files, you ne
 You can omit the ```-v `pwd`/data:/app/data``` part if you are not using local files as a source. 
 ```bash
 # Make sure you are in the right directory.
-cd examples/pipelines/demo-question-answering
+cd llm_app
 
 # Build the image in this folder
 docker build -t qa .
