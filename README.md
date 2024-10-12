@@ -277,7 +277,7 @@ Search API gives you the ability to search in available inputs and get up-to-dat
 
 ```bash
 curl -X 'POST' \
-  'http://0.0.0.0:8000/v1/retrieve' \
+  'http://localhost:8000/v1/retrieve' \
   -H 'accept: */*' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -296,7 +296,7 @@ For question answering without any context, simply omit `filters` key in the pay
 
 ```bash
 curl -X 'POST' \
-  'http://0.0.0.0:8000/v1/pw_ai_answer' \
+  'http://localhost:8000/v1/pw_ai_answer' \
   -H 'accept: */*' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -307,7 +307,7 @@ curl -X 'POST' \
 Question answering with the knowledge from files that have the word `Ide` in their paths.
 ```bash
 curl -X 'POST' \
-  'http://0.0.0.0:8000/v1/pw_ai_answer' \
+  'http://localhost:8000/v1/pw_ai_answer' \
   -H 'accept: */*' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -330,7 +330,7 @@ To summarize a list of texts, use the following `curl` command.
 
 ```bash
 curl -X 'POST' \
-  'http://0.0.0.0:8000/v1/pw_ai_summary' \
+  'http://localhost:8000/v1/pw_ai_summary' \
   -H 'accept: */*' \
   -H 'Content-Type: application/json' \
   -d '{
